@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+
+body {
+    background-image: url(background-luaivros.jpg);
+    color: blue;
+    font-family: 'Lora', serif;
+
+    
+}
+h1 {
+    font-size: 50px;
+    color: red;
+    animation: mudarCor 5s infinite; /* Adiciona uma animação chamada 'mudarCor' que dura 5 segundos e se repete infinitamente */
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+@keyframes mudarCor {
+    0% { color: red; } /* Inicia com a cor vermelha */
+    25% { color: rgb(0, 81, 128); } /* Muda para verde na metade da animação */
+    50% {color: rgb(0, 95, 0);}
+    75% {color: rgb(144, 231, 253);}
+    90% { color: rgb(0, 255, 85); } /* Termina com a cor azul */
+    100%{color:red}
+}
+h2{
+    font-size: 32px;
+}
