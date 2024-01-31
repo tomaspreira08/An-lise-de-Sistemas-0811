@@ -5,12 +5,22 @@ body {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    background-image: url(background-luaivros.jpg);
-    color: blue;
+    background-image: url(76f29b8fc0240d31e41178cf4856aae8.jpg);
+    text-align: right;
+    color: #585851;
+}
+.container {
+    width: 60%; /* Ajuste a largura conforme necessário */
+    margin: -100px; /* Centralizar a caixa na tela */
+    margin-right: -150px;
+    background-color:rgba(255, 255, 255, .0); /* Adicionar uma cor de fundo se desejar */
+    text-align: justify;
+    padding: 20px; /* Adicionar algum espaço interno */
+    float: right;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     animation: mudarCor 5s infinite;
     font-family: 'Great Vibes', cursive;
 }
@@ -18,6 +28,7 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
+    color:#cd853f ;
 }
 h3{ 
     font-family: 'Crimson Text', serif;
@@ -34,11 +45,11 @@ h3{
     font-size: 22px;
 }
 @keyframes mudarCor {
-    0%, 100% { color: rgb(255, 0, 0); } /* Inicia e termina com a cor vermelha */
-    25% { color: green; }
-    50% { color: purple; }
-    75% { color: blue; }
-    90% { color: yellow; }
+    0%, 100% { color: #ff7f50; } /* Inicia e termina com a cor vermelha */
+    25% { color: #d2691e; }
+    50% { color: #cd853f; }
+    75% { color: #ff8c00; }
+    90% { color: #8b4513; }
 }
 
 .cadastro-de-materiais,
@@ -66,6 +77,11 @@ h3{
 .personalização-perfis-usuario {
     font-size: 24px; /* Tamanho de fonte maior para os tópicos dentro das divs */
     font-weight: bold; /* Texto em negrito */
-    color: #4ea3f8; /* Cor do texto (ajuste conforme necessário) */
+    color: #3C3633; /* Cor do texto (ajuste conforme necessário) */
     margin-top: 10px; /* Espaço superior para separar os tópicos */
+}
+.gif{
+    float: right;
+    margin: 2px;
+    margin-top: -150px;
 }
