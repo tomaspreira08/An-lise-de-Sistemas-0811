@@ -1,122 +1,93 @@
+  body {
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            background-image: url(76f29b8fc0240d31e41178cf4856aae8.jpg);
+            text-align: right;
+            color: #000000;
+            overflow-x: hidden; /* Impede a barra de rolagem horizontal causada pelo overflow */
+        }
 
+        .container {
+            width: 60%;
+            margin: -90px 0 0 -150px; /* Ajustes de margem para centralizar corretamente */
+            background-color: rgba(0, 0, 0, 0);
+            text-align: justify;
+            padding: 20px;
+            float: right;
+        }
 
+        h1 {
+            font-size: 60px;
+            animation: mudarCor 5s infinite;
+            font-family: 'Great Vibes', cursive;
+        }
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            color: #cd853f;
+        }
 
-body {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+        h3 {
+            font-family: 'Crimson Text', serif;
+            font-size: 22px;
+            color: rgb(112, 107, 107);
+        }
 
+        .fincionalidades-basicas h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+        }
 
-    background-image: url(76f29b8fc0240d31e41178cf4856aae8.jpg);
-    text-align: right;
-    color: #000000;
-    overflow-x: hidden; /* Impede a barra de rolagem horizontal causada pelo overflow */
-}
+        .fincionalidades-basicas h3 {
+            font-family: 'Crimson Text', serif;
+            font-size: 22px;
+            color: rgb(112, 107, 107);
+        }
 
-.container {
-    width: 60%;
-    margin: -90px 0 0 -150px; /* Ajustes de margem para centralizar corretamente */
-    background-color: rgba(0, 0, 0, 0);
-    text-align: justify;
-    padding: 20px;
-    float: right;
-}
+        @keyframes mudarCor {
+            0%, 100% { color: #ff7f50; } /* Inicia e termina com a cor vermelha */
+            25% { color: #d2691e; }
+            50% { color: #cd853f; }
+            75% { color: #ff8c00; }
+            90% { color: #8b4513; }
+        }
 
+        .cadastro-de-materiais,
+        .controlo-do-stoque,
+        .circulação-de-materiais,
+        .reservas,
+        .busca-recuperação-informações,
+        .controle-acesso,
+        .relatorios-estatisticas,
+        .integração-outros-sistemas,
+        .segurança-backup,
+        .interface-usuario-amigavel,
+        .atualizacao-manutencao,
+        .cadastro-usuario,
+        .cadastro-materiais,
+        .controlo-estoque,
+        .emprestimo-devolição,
+        .renovação-emprestimo,
+        .resrevas,
+        .avisos-automáticos,
+        .controle-multas-taxas,
+        .relatório-simples,
+        .segurança,
+        .backup-recuperação,
+        .personalização-perfis-usuario {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3C3633;
+            margin-top: 10px;
+        }
 
-
-
-h1 {
-    font-size: 60px;
-    animation: mudarCor 5s infinite;
-    font-family: 'Great Vibes', cursive;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-
-
-    color: #cd853f;
-}
-
-h3 {
-    font-family: 'Crimson Text', serif;
-    font-size: 22px;
-    color:rgb(112, 107, 107)
-
-}
-
-
-
-
-.fincionalidades-basicas h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-}
-
-.fincionalidades-basicas h3{
-    font-family: 'Crimson Text', serif;
-    font-size: 22px;
-
-
-    color:rgb(112, 107, 107)
-}
-@keyframes mudarCor {
-    0%, 100% { color: #ff7f50; } /* Inicia e termina com a cor vermelha */
-    25% { color: #d2691e; }
-    50% { color: #cd853f; }
-    75% { color: #ff8c00; }
-    90% { color: #8b4513; }
-
-}
-
-
-
-
-
-
-.cadastro-de-materiais,
-.controlo-do-stoque,
-.circulação-de-materiais,
-.reservas,
-.busca-recuperação-informações,
-.controle-acesso,
-.relatorios-estatisticas,
-.integração-outros-sistemas,
-.segurança-backup,
-.interface-usuario-amigavel,
-.atualizacao-manutencao,
-.cadastro-usuario,
-.cadastro-materiais,
-.controlo-estoque,
-.emprestimo-devolição,
-.renovação-emprestimo,
-.resrevas,
-.avisos-automáticos,
-.controle-multas-taxas,
-.relatório-simples,
-.segurança,
-.backup-recuperação,
-.personalização-perfis-usuario {
-    font-size: 24px; /* Tamanho de fonte maior para os tópicos dentro das divs */
-    font-weight: bold; /* Texto em negrito */
-
-   color: #3C3633; /* Cor do texto (ajuste conforme necessário) */
-    margin-top: 10px; /* Espaço superior para separar os tópicos */
-}
-.gif {
-    float: right;
-    margin: 2px;
-    margin-top: -60px;
-    margin-right: 0; /* Ajuste para impedir o overflow à direita */
-    color: #4ea3f8; /* Cor do texto (ajuste conforme necessário) */
-    margin-top: 10px; /* Espaço superior para separar os tópicos */
-
-
-    color: #4ea3f8; /* Cor do texto (ajuste conforme necessário) */
-    margin-top: 10px; /* Espaço superior para separar os tópicos */
-
-}
+        .gif {
+            float: right;
+            margin: 2px;
+            margin-top: -60px;
+            margin-right: 0;
+            color: #4ea3f8;
+            margin-top: 10px;
+        }
