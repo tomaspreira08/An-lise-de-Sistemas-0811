@@ -7,15 +7,16 @@ body {
     margin-right: 50px;
     background-image: url(76f29b8fc0240d31e41178cf4856aae8.jpg);
     text-align: right;
-    color: #585851;
+    color: #000000;
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal causada pelo overflow */
 }
+
 .container {
-    width: 60%; /* Ajuste a largura conforme necessário */
-    margin: -100px; /* Centralizar a caixa na tela */
-    margin-right: -150px;
-    background-color:rgba(255, 255, 255, .0); /* Adicionar uma cor de fundo se desejar */
+    width: 60%;
+    margin: -90px 0 0 -150px; /* Ajustes de margem para centralizar corretamente */
+    background-color: rgba(0, 0, 0, 0);
     text-align: justify;
-    padding: 20px; /* Adicionar algum espaço interno */
+    padding: 20px;
     float: right;
 }
 
@@ -28,11 +29,13 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
-    color:#cd853f ;
+    color: #cd853f;
 }
-h3{ 
+
+h3 {
     font-family: 'Crimson Text', serif;
     font-size: 22px;
+    color:rgb(112, 107, 107)
 }
 
 .fincionalidades-basicas h2{
@@ -43,6 +46,7 @@ h3{
 .fincionalidades-basicas h3{
     font-family: 'Crimson Text', serif;
     font-size: 22px;
+    color:rgb(112, 107, 107)
 }
 @keyframes mudarCor {
     0%, 100% { color: #ff7f50; } /* Inicia e termina com a cor vermelha */
@@ -80,8 +84,9 @@ h3{
     color: #3C3633; /* Cor do texto (ajuste conforme necessário) */
     margin-top: 10px; /* Espaço superior para separar os tópicos */
 }
-.gif{
+.gif {
     float: right;
     margin: 2px;
-    margin-top: -150px;
+    margin-top: -60px;
+    margin-right: 0; /* Ajuste para impedir o overflow à direita */
 }
