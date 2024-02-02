@@ -1,3 +1,7 @@
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
@@ -5,6 +9,7 @@ body {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+
     background-image: url(76f29b8fc0240d31e41178cf4856aae8.jpg);
     text-align: right;
     color: #000000;
@@ -20,8 +25,11 @@ body {
     float: right;
 }
 
+
+
 h1 {
-    font-size: 70px;
+    font-size: 60px;
+
     animation: mudarCor 5s infinite;
     font-family: 'Great Vibes', cursive;
 }
@@ -29,6 +37,7 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
+
     color: #cd853f;
 }
 
@@ -36,7 +45,9 @@ h3 {
     font-family: 'Crimson Text', serif;
     font-size: 22px;
     color:rgb(112, 107, 107)
+
 }
+
 
 .fincionalidades-basicas h2{
     font-family: 'Montserrat', sans-serif;
@@ -46,6 +57,7 @@ h3 {
 .fincionalidades-basicas h3{
     font-family: 'Crimson Text', serif;
     font-size: 22px;
+
     color:rgb(112, 107, 107)
 }
 @keyframes mudarCor {
@@ -54,7 +66,9 @@ h3 {
     50% { color: #cd853f; }
     75% { color: #ff8c00; }
     90% { color: #8b4513; }
+
 }
+
 
 .cadastro-de-materiais,
 .controlo-do-stoque,
@@ -81,7 +95,7 @@ h3 {
 .personalização-perfis-usuario {
     font-size: 24px; /* Tamanho de fonte maior para os tópicos dentro das divs */
     font-weight: bold; /* Texto em negrito */
-    color: #3C3633; /* Cor do texto (ajuste conforme necessário) */
+   color: #3C3633; /* Cor do texto (ajuste conforme necessário) */
     margin-top: 10px; /* Espaço superior para separar os tópicos */
 }
 .gif {
@@ -89,4 +103,7 @@ h3 {
     margin: 2px;
     margin-top: -60px;
     margin-right: 0; /* Ajuste para impedir o overflow à direita */
+    color: #4ea3f8; /* Cor do texto (ajuste conforme necessário) */
+    margin-top: 10px; /* Espaço superior para separar os tópicos */
+
 }
